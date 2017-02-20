@@ -1,0 +1,582 @@
+/*   
+Theme Name: Librezale.eus
+Theme URI: http://librezale.eus
+Description: Librezale.eus webguneko itxura nagusia.
+Author: Librezale.eus
+Author URI: http://librezale.eus
+Version: 0.1
+.
+General comments/License Statement if any.
+.
+*/
+
+body {
+    background: #FFF url(irudiak/atzeko-planoa.png) top left repeat-x;
+    margin: 0;
+}
+
+a {
+    background-color: inherit;
+    color: #B03600;
+    outline: 0;
+    text-decoration: none;
+}
+
+a img {
+    border: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+}
+
+div#orria {
+    background: transparent url(irudiak/orria-atzekoa.png) top center no-repeat;
+    min-height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+}
+
+img#librezale-logoa-azala {
+    margin: 5px 0;
+}
+
+img#librezale-logoa {
+    margin: 26px 0 5px;
+}
+
+div#eskuin-menuak {
+    float: right;
+    margin-right: 10px;
+    width: 454px;
+}
+
+div#ezker-menuak {
+    float: left;
+    margin-left: 10px;
+    width: 472px;
+}
+            
+div#informazio-menua {
+    font: 0.8em sans-serif;
+    margin-top: 10px;
+    text-align: right;
+    width: 454px;
+}
+
+div#informazio-menua a {
+    color: #000;
+}
+
+div#menua {
+    background-color: rgba(71,71,71,0.3);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin-top: 15px;
+    overflow: hidden;
+    width: 454px;
+}
+
+div#menua h3 {
+    color: #B03600;
+    font: normal 1.1em serif;
+    margin: 5px;
+}
+
+div#menua img {
+    border-right: 1px solid #666;
+    margin: 0;
+    padding: 0 8px;
+}
+
+div#menua img:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+div#menua img.azkena {
+    border-right: 0;
+}
+
+ul#menu-zerrenda {
+    border-right: 1px solid #666;
+    font: 0.9em serif;
+    list-style: none;
+    margin: 0 9px 10px 20px;
+    padding: 0 15px 0 0;
+    width: 130px;
+}
+
+ul#menu-zerrenda li {
+    border-bottom: 1px solid #666;
+}
+
+ul#menu-zerrenda li:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+ul#menu-zerrenda li a {
+    color: #444;
+    display: block;
+    text-decoration: none;
+    width: 130px;
+}
+
+ul#menu-zerrenda li a:hover {
+    color: #000;
+}
+
+a#parte-hartu {
+    background-color: #B03600;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    color: #FFF;
+    float: right;
+    font: 0.8em serif;
+    margin: 5px 0;
+    padding: 3px 5px 2px 5px; 
+}
+
+a#parte-hartu:hover {
+    background-color: #FFF;
+    color: #B03600;
+    text-decoration: none;
+}
+
+p#menua-proiektuak {
+    color: #666;
+    font: 0.9em serif;
+    margin: 35px 0 5px 0;
+}
+
+div#bilatzailea {
+    background-color: rgba(71,71,71,0.15);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    height: 38px;
+    margin-top: 10px;
+    width: 472px;
+}
+
+div#bilatzailea form {
+    margin: 0;
+    padding: 0;
+}
+
+div#bilatzailea fieldset {
+    border: 0;
+    height: 38px;
+    margin: 0;
+    padding: 4px 10px 0 10px;
+}
+
+div#bilatzailea label {
+    color: #B03600;
+    font: normal 1em serif;
+    margin-right: 10px;
+}
+
+div#bilatzailea input {
+    background-color: #FFF;
+    border: 0;
+    margin-left: 5px;               
+}
+
+div#bilatzailea input.botoia {
+    background: transparent url(irudiak/bilatzailea-botoia.png) center center no-repeat;
+    height: 26px;
+    width: 27px;
+}
+
+div#edukia {
+    clear: both;
+    margin: 265px 20px 20px 20px;
+    overflow: hidden;
+}           
+
+div#albiste-blokea {
+    background-color: #666F6F;
+    border: 10px solid #7E8B8B;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* WP */
+    width: 454px;
+    padding: 15px 15px 0;
+    color: #cfcfcf;
+    /* height: 430px; */
+}
+
+div#azkenak-blokea {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 430px;
+    /* WP */
+    /* height: 430px; */
+}
+
+.ezkerrean {
+    float: left;
+}
+
+span.txikitu {
+    font-size: 0.8em;
+}
+
+
+/* 
+ * WPrako EGINDAKO ALDAKETAK
+ */
+
+.eskuinean {
+    float: right;
+}
+
+div#albiste-blokea,
+div#azkenak-blokea,
+div#azala-estatikoa {
+    font-family: sans-serif;
+}
+
+/* BEHEKO ZATIA */
+
+div#oina {
+    background: #FFF url(irudiak/oina.png) center 20px no-repeat;
+    height: 80px;
+    padding-top: 60px;
+}
+
+p#informazio-menua {
+    margin: 0 auto;
+    font: 0.8em sans-serif;
+    text-align: center;
+}
+
+p#informazio-menua a {
+    color: #000;
+}
+
+p#kreditu-menua {
+    color: #777;
+    margin: 5 auto;
+    font: 0.8em sans-serif;
+    text-align: center;
+}
+
+p#kreditu-menua a {
+    color: #777;
+}
+
+
+/* ALBO-BARRA */
+
+div#azkenak-blokea ul {
+    list-style-type: none;
+    padding-left: 15px;
+    font-size: smaller;
+    line-height: 16px;
+}
+
+div#azkenak-blokea ul ul {
+    list-style-type: square;
+}
+
+div#albiste-blokea h3 {
+    margin-bottom: 0;
+}
+
+/* IZENBURUAK */
+
+div#albiste-blokea h2,
+div#albiste-blokea h3,
+div#edukia-osoa h2,
+div#edukia-osoa h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+div#azkenak-blokea h2.widget-izenburua {
+    margin: 10px 0 5px;
+}
+
+div#azala-estatikoa h2,
+div#azala-estatikoa h3,
+div#edukia-osoa h2,
+div#edukia-osoa h3 {
+    background-color: inherit;
+    color: #B03600;
+}
+
+/* ALBISTEAK */
+
+div#albiste-blokea div.post {
+    margin-bottom: 10px;
+}
+
+div#albiste-blokea div.post a {
+    color: #ffffff;
+}
+
+div#albiste-blokea div.nabigazioa a {
+    color: #C9CECE;
+}
+
+div#albiste-blokea div.post div.post-gorputza p {
+    margin: 5px 0 2px;
+    background-color: inherit;
+    color: #ccc;
+    font-size: smaller;
+}
+
+div#albiste-blokea div.post p.post-meta-head {
+    font-style: italic;
+    font-size: small;
+    margin: 2px 0 0;
+}
+
+div#albiste-blokea div.post p.post-meta-foot,
+div#edukia-osoa div.post p.post-meta-foot {
+    margin: 2px 0 0;
+    font-size: smaller;
+}
+
+div#edukia-osoa div.post p.post-meta-foot {
+    padding: 8px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px 0;
+    text-align: center;
+}
+
+/* ALBISTEETAKO IRUZKINAK */
+
+h3#iruzkinak {
+    margin-top: 15px !important;
+}
+
+ul#iruzkinak,
+ul#iruzkinak ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+ul#iruzkinak li {
+    width: 85%;
+}
+
+ul#iruzkinak ul.children li {
+    width: 100%;
+}
+
+div.iruzkina {
+    background-color: #c9cece;
+    color: #000000;
+    margin: 12px 6px;
+    padding: 5px;
+    -moz-border-radius: 3px;
+    font-family: sans-serif;
+    font-size: x-small;
+}
+
+div.iruzkinarrunta {
+    border: 2px solid #7c8989;
+}
+
+div.iruzkinberezia {
+    border: 2px solid #000000;
+}
+
+div.iruzkina p {
+    line-height: 1.4;
+    margin: 0 0 5px;
+}
+
+div.iruzkina-burua,
+div.iruzkina-gorputza {
+    padding: 2px 5px;
+}
+
+div.iruzkina-gorputza {
+    min-height: 50px;
+}
+
+div.iruzkina-testua {
+    font-size: small;
+}
+
+div.avatar {
+    height: 50px;
+    width: 50px;
+}
+
+p.errorea {
+    font-size: smaller;
+    font-style: italic;
+    background-color: inherit;
+    color: #B03600;
+}
+
+/* NABIGAZIOA */
+
+div.nabigazioa {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* EDUKIAK BAKARKA */
+
+div#edukia-osoa {
+    margin-top: 180px;
+    padding: 15px 20px;
+}
+
+/* AZALEKO EDUKI ESTATIKOA */
+
+div#azala-estatikoa {
+    clear: both;
+    margin: 0 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+div#azala-estatikoa p {
+    margin: 2px 0 0;
+    font-size: smaller;
+}
+
+div#azala-estatikoa h3 {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+div#azala-estatikoa table {
+    width: 100%;
+}
+
+/* DENETARIK */
+
+.clear {
+    clear: both;
+}
+
+span.beharrezkoa {
+    background-color: inherit;
+    color: #B03600;
+}
+
+
+/* Mezuen kutxak (informazioa, abisua, errorea, ...) */
+
+div.mezua {
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    margin: 10px 0;
+    padding: 5px 10px 5px 55px;
+}
+
+.mezua a {
+    background-color: inherit;
+    color: #B03600 !important;
+}
+
+div.bikoitza {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.abisua {
+    background-color: #FEEFB3;
+    background-image: url('/irudiak/emblem-important.png');
+    color: #9F6000;
+}
+
+div.informazioa {
+    background-color: #BDE5F8;
+    background-image: url('/irudiak/dialog-information.png');
+    color: #00529B;
+}
+
+p.txikia {
+    font-size: x-small;
+}
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+
+.wp-caption {
+	background-color: #f3f3f3;
+	border: 1px solid #ddd;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* optional rounded corners for browsers that support it */
+	margin: 10px;
+	padding-top: 4px;
+	text-align: center;
+}
+
+.wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+
+/* End Images */

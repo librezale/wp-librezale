@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Julen Ruiz Aizpuru <julenx@gmail.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-19 20:34+0100\n"
+"PO-Revision-Date: 2010-01-19 20:34+0200\n"
+"Last-Translator: Julen Ruiz Aizpuru <julenx@gmail.com>\n"
+"Language-Team: librezale@librezale.org\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.0-rc1\n"
+
+#: archive.php:9
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "&#8216;%s&#8217; kategoriaren artxiboa"
+
+#: archive.php:11
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "&#8216;%s&#8217; etiketadun bidalketak"
+
+#: archive.php:13 archive.php:15 archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Artxiboa %s(r)entzat"
+
+#: archive.php:13 archive.php:33 index.php:13 search.php:18 single.php:9
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: archive.php:15
+msgid "Y-m"
+msgstr "Y-m"
+
+#: archive.php:19
+msgid "Author Archive"
+msgstr "Egileen artxiboa"
+
+#: archive.php:21
+msgid "Blog Archives"
+msgstr "Blogeko artxiboak"
+
+#: archive.php:32 index.php:12 search.php:17
+#, php-format
+msgid "Permalink: %s"
+msgstr "Esteka iraunkorra: %s"
+
+#: archive.php:39 search.php:20
+msgid "Edit"
+msgstr "Editatu"
+
+#: archive.php:39 search.php:20
+msgid "No Comments &#187;"
+msgstr "Iruzkinik ez &#187;"
+
+#: archive.php:39 search.php:20
+msgid "1 Comment &#187;"
+msgstr "Iruzkin bat &#187;"
+
+#: archive.php:39 search.php:20
+msgid "% Comments &#187;"
+msgstr "% iruzkin &#187;"
+
+#: archive.php:52
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Sentitzen dugu baina oraindik ez dago bidalketarik %s kategorian."
+
+#: archive.php:54
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Sentitzen dugu baina oraindik ez dago bidalketarik data honekin."
+
+#: archive.php:57
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Sentitzen dugu baina oraindik ez dago %s egilearen bidalketarik."
+
+#: archive.php:59
+msgid "No posts found."
+msgstr "Ez da bidalketarik aurkitu."
+
+#: archives.php:11
+msgid "Posts Archive"
+msgstr "Bidalketen artxiboa"
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Bidalketa hau pasahitzez babestuta dago. Idatzi pasahitza iruzkinak "
+"ikusteko."
+
+#: comments.php:17
+msgid "No Responses"
+msgstr "Iruzkinik ez"
+
+#: comments.php:17
+msgid "One Response"
+msgstr "Iruzkin bat"
+
+#: comments.php:17
+msgid "% responses"
+msgstr "% iruzkin"
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "Iruzkinak itxita daude."
+
+#: comments.php:55
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Iruzkinak bidaltzeko <a href=\"%s\">saioa hasi</a> behar duzu."
+
+#: comments.php:62
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s/wp-admin/profile.php\">%2$s</a>. <a href=\"%3$s"
+"\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr ""
+"<a href=\"%1$s/wp-admin/profile.php\">%2$s</a> bezala saioa hasita. <a href=\"%"
+"3$s\" title=\"Log out of this account\">Amaitu saioa &raquo;</a>"
+
+#: comments.php:67
+msgid "Name"
+msgstr "Izena"
+
+#: comments.php:70
+msgid "Mail (will not be published)"
+msgstr "Posta (ez da argitaratuko)"
+
+#: comments.php:73
+msgid "Website"
+msgstr "Webgunea"
+
+#: comments.php:79
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> Etiketa hauek erabil ditzakezu: <code>%s</code>"
+
+#: comments.php:81
+msgid "Submit Comment"
+msgstr "Bidali iruzkina"
+
+#: footer.php:3
+msgid "What is Librezale?"
+msgstr "Zer da Librezale?"
+
+#: footer.php:3
+msgid "Contact Information"
+msgstr "Harremanetarako informazioa"
+
+#: footer.php:3
+msgid "Contact"
+msgstr "Kontaktua"
+
+#: footer.php:3
+msgid "RSS Feed"
+msgstr "RSS jarioa"
+
+#: footer.php:3
+msgid "License"
+msgstr "Lizentzia"
+
+#: footer.php:4
+msgid "Supporter:"
+msgstr "Laguntzailea:"
+
+#: footer.php:4
+msgid "Software Used:"
+msgstr "Erabilitako softwarea:"
+
+#: functions.php:38
+#, php-format
+msgid "%s %s &mdash; %s"
+msgstr "%s %s &mdash; %s"
+
+#: functions.php:46
+msgid "Reply"
+msgstr "Erantzun"
+
+#: functions.php:63
+msgid "Your comment is awaiting moderation."
+msgstr "Zure iruzkina moderatzeko zain dago."
+
+#: index.php:5
+msgid "News"
+msgstr "Albisteak"
+
+#: index.php:13
+msgid "(edit)"
+msgstr "(editatu)"
+
+#: index.php:16
+msgid "Read the full contents &raquo;"
+msgstr "Irakurri osoa &raquo;"
+
+#: index.php:19
+msgid "No comments &#187;"
+msgstr "Iruzkinik ez &#187;"
+
+#: index.php:19
+msgid "One comment &#187;"
+msgstr "Iruzkin bat &#187;"
+
+#: index.php:19
+#, php-format
+msgid "% comments &#187;"
+msgstr "% iruzkin &#187;"
+
+#: index.php:31
+msgid "Not Found."
+msgstr "Ez da aurkitu."
+
+#: index.php:32
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Sentitzen dugu, baina bila zabiltzan orria ez dago."
+
+#: search.php:7
+msgid "Search Results"
+msgstr "Bilaketaren emaitzak"
+
+#: search.php:32
+msgid "No posts found. Try a different search?"
+msgstr "Ez da bidalketarik aurkitu. Saiatu beste bilaketa batekin?"
+
+#: single.php:12
+msgid "read the rest of this entry &raquo;"
+msgstr "osoa irakurri &raquo;"
+
+#: single.php:18
+#, php-format
+msgid ""
+"You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+"\"trackback\">trackback</a> from your own site."
+msgstr ""
+"<a href=\"#respond\">Iruzkina utzi</a> edo zure gunetik <a href=\"%s\" "
+"rel=\"trackback\">aipua</a> egin dezakezu."
+
+#: single.php:22
+#, php-format
+msgid ""
+"Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+"\">trackback</a> from your own site."
+msgstr ""
+"Iruzkinak itxita daude, baina zure gunetik <a href=\"%s\" "
+"rel=\"trackback\">aipua</a> egin dezakezu."
+
+#: single.php:26
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr "Bukaera salto egin dezakezu iruzkina uzteko. Ping-ak ez dira onartzen."
+
+#: single.php:30
+msgid "Both comments and pings are currently closed."
+msgstr "Iruzkinak eta ping-ak itxita daude."
+
+#: single.php:33
+msgid "Edit this entry"
+msgstr "Editatu sarrera hau"
+
+#: single.php:46
+msgid "Sorry, no posts matched your criteria."
+msgstr "Barkatu, irizpide horiek betetzen dituen bidalketarik ez da aurkitu."
+
+#~ msgid "This website is powered by WordPress."
+#~ msgstr "Webgune hau WordPressi esker dabil."
+
+#~ msgid "Tags: "
+#~ msgstr "Etiketak:"
+
+#, php-format
+#~ msgid "Posted in %s"
+#~ msgstr "Hemen sailkatua: %s"
