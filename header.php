@@ -36,10 +36,9 @@
                         <h3>Librezale / <span class="txikitu">Menua</span></h3>
                         <ul id="menu-zerrenda">
                             <li><a href="/wiki/" title="Librezaleren wikiaren aurkibidera">Aurkibidea</a></li>
-                            <li><a href="http://pootle.librezale.eus" title="Pootle zerbitzarira">Pootle</a></li>
-
                             <li><a href="/wiki/Lan-tresnak" title="Lan-tresnen orrira">Lan-tresnak</a></li>
                             <li><a href="/wiki/Lokalizazio-gida" title="Lokalizazio-gidara">Lokalizazio-gida</a></li>
+                            <li><a href="https://telegram.me/librezale" title="Telegram taldea">Telegram taldea</a></li>
                         </ul>
                     </div>
                     <div class="ezkerrean">
