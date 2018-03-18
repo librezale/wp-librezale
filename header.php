@@ -44,7 +44,7 @@
                     <div class="ezkerrean">
                         <a id="parte-hartu" href="/wiki/Parte hartu nahi duzu%3F">Parte hartu nahi duzu?</a>
                         <p id="menua-proiektuak">Proiektuak:</p>
-                        <a href="/wiki/Mozilla" title="Mozilla proiektuaren orrira"><img src="/irudiak/menua-mozilla.png" alt="Mozilla" /></a><a href="/wiki/WordPress" title="WordPress proiektuaren orrira"><img src="/irudiak/menua-wordpress.png" alt="WordPress" /></a><a href="/wiki/Proiektuak" title="Proiektu guztien orrira"><img class="azkena" src="/irudiak/menua-gehiago.png" alt="Gehiago..." /></a>
+                        <a href="/wiki/Mozilla" title="Mozilla proiektuaren orrira"><img src="/irudiak/menua-mozilla.png" alt="Mozilla" /></a><a href="/wiki/LibreOffice" title="LibreOffice proiektuaren orrira"><img src="/irudiak/menua-libreoffice.png" alt="LibreOffice" /></a><a href="/wiki/Proiektuak" title="Proiektu guztien orrira"><img class="azkena" src="/irudiak/menua-gehiago.png" alt="Gehiago..." /></a>
                     </div>
                     <div class="clear"></div>
                 </div>
